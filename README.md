@@ -29,7 +29,7 @@ Le répertoire src du projet :
 
 Plusieurs cas ont été étudiés et développées afin d'eviter les incohérences d'affichages. Le container Checkbox contient une classe avec en state 2 élements 
 - un objet : "allChecked" ayant un attribut isChecked permettant de vérifier l'état de la checkbox (true ou false) => initaliser à false 
-- un tableau d'objets : "checkboxs" ayant une valeur (value) étant le label du checkbos ainsi que l'état de la checkbox  (true ou false) => initaliser à false
+- un tableau d'objets : "checkboxs" ayant une valeur (value) étant le label du checkboxs ainsi que l'état de la checkbox  (true ou false) => initaliser à false
 
 
 
@@ -72,4 +72,4 @@ Plusieurs cas ont été étudiés et développées afin d'eviter les incohérenc
 
 ## Tests
 
-Des tests d'affichage et de rendering ont été réalisé avec Jet et Enzyme
+Des tests unitaires d'affichage et de rendering ont été réalisé avec Jet et Enzyme
