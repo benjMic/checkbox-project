@@ -11,6 +11,8 @@ Le projet a été initialisé de la façon suivante :
 `npm start`
 
 
+Attention : n'oubliez pas de saisir la commande `npm install` avant de lancer le projet.
+
 ## Structure du projet
 
 Le répertoire src du projet : 
