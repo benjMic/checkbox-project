@@ -66,8 +66,8 @@ Plusieurs cas ont été étudiés et développées afin d'eviter les incohérenc
         - parcours des checkboxs et application de l'etat remonté par l'evenement à la checkbox courante
         - modification de l'état du tableau checkbox qui applique la modification prise en compte
         - cochage de la checkbox "Selectionner tout" dans le cas ou aucune checkbox du tableau retourne l'état faux
-		-  décochage de la checkbox Selectionner tout dans le cas ou les checkbox du tableau ne sont pas toutes à l'état vrai
-        - décochage de la checkbox Selectionner tout dans le cas ou au moins une checkbox retourne l'état faux
+		-  décochage de la checkbox "Selectionner tout" dans le cas ou les checkbox du tableau ne sont pas toutes à l'état vrai
+        - décochage de la checkbox "Selectionner tout" dans le cas ou au moins une checkbox retourne l'état faux
 
 
 
