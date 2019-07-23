@@ -46,12 +46,16 @@ Plusieurs cas ont été étudiés et développées afin d'eviter les incohérenc
 2 events ont été développés.
 
 **handleAllChecked** 
-   -     Appelé au changement d'etat (onChange) de la checkbox qui permet de tout selectionné.
 
-   -     Cette fonction permet de gérer les cas suivants : 
-	   -  cocher la checkbox si l'evenement est declenché et que la valeur courante de la checkbox est fausse
-	   -  décocher la checkbox si l'evenement est declenché et que la valeur courante de la checkbox est vraie
-	   -  appliquer l'état de la checkbox (coché ou décoché) à toutes les checkboxs
+ -  Appelé au changement d'etat (onChange) de la checkbox qui permet de tout selectionné
+
+   -  Cette fonction permet de gérer les cas suivants : 
+        - cocher la checkbox si l'evenement est declenché et que la valeur courante de la checkbox est fausse
+        - décocher la checkbox si l'evenement est declenché et que la valeur courante de la checkbox est vraie
+        - appliquer l'état de la checkbox (coché ou décoché) à toutes les checkboxs
+	
+	   
+	   
 
 **handleCheckItem**
    -  Envoyer en props à la function CheckBoxItem au moment du mapping puis appelé à chaque changement d'etat (onChange) des checkboxs (objets) contenus dans le tableau.
